@@ -1,0 +1,6 @@
+framework module HR_Regular {
+  umbrella header "HR_Regular-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -37,7 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0A04CC6D295A9A9D53E9FF3A /* HR_Regular.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = HR_Regular.podspec; path = ../HR_Regular.podspec; sourceTree = "<group>"; };
+		0A04CC6D295A9A9D53E9FF3A /* HR_Regular.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = HR_Regular.podspec; path = ../HR_Regular.podspec; sourceTree = "<group>"; };
 		2BE1BC2CAAD6F4E0BF93D6D4 /* Pods-HR_Regular_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HR_Regular_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HR_Regular_Tests/Pods-HR_Regular_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		3D1FEB45B0FB70D8CF6D0741 /* Pods_HR_Regular_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HR_Regular_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		47486DA672D8548AED613055 /* Pods_HR_Regular_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HR_Regular_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -60,9 +60,9 @@
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
-		6BFCB8640AE117E5E956F6D9 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		6BFCB8640AE117E5E956F6D9 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		8374CCA7ADF9CBEBB60510E0 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		8374CCA7ADF9CBEBB60510E0 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8B91DA5DFF3D81F587E24BCB /* Pods-HR_Regular_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HR_Regular_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-HR_Regular_Example/Pods-HR_Regular_Example.release.xcconfig"; sourceTree = "<group>"; };
 		C96D81D4BA9919E1DB4BD2B0 /* Pods-HR_Regular_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HR_Regular_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HR_Regular_Example/Pods-HR_Regular_Example.debug.xcconfig"; sourceTree = "<group>"; };
@@ -250,6 +250,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = obgniyum;
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = L7P6N237GX;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -533,6 +536,7 @@
 			baseConfigurationReference = C96D81D4BA9919E1DB4BD2B0 /* Pods-HR_Regular_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = L7P6N237GX;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "HR_Regular/HR_Regular-Prefix.pch";
 				INFOPLIST_FILE = "HR_Regular/HR_Regular-Info.plist";
@@ -548,6 +552,7 @@
 			baseConfigurationReference = 8B91DA5DFF3D81F587E24BCB /* Pods-HR_Regular_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = L7P6N237GX;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "HR_Regular/HR_Regular-Prefix.pch";
 				INFOPLIST_FILE = "HR_Regular/HR_Regular-Info.plist";
